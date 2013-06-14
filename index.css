@@ -1,20 +1,39 @@
 * {
   margin: 0px;
 }
+a {
+  text-decoration: none;
+  color: #191c2f;
+}
+a:hover {
+  text-decoration: underline;
+  color: #476388;
+}
 body {
   font-family: 'Titillium Web', Arial, sans-serif;
+  background-color: #ebe0cd;
 }
 .container {
   max-width: 960px;
-  padding: 30px;
 }
 #intro {
+  text-align: center;
   position: absolute;
-  top: 30%;
+  top: 20%;
+  width: 100%;
   margin: 30px auto;
   font-size: 30px;
+  color: #191c2f;
+  text-transform: uppercase;
 }
 #intro h1 {
-  font-family: Cutive, serif;
-  font-size: 72px;
+  font-family: 'Noticia Text', serif;
+  font-size: 100px;
+}
+#intro .subtitle {
+  font-size: 30px;
+}
+#intro .social {
+  margin-top: 2em;
+  font-size: 25px;
 }
