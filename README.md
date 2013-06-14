@@ -10,6 +10,12 @@ Next, run `npm install` to install those programs.
 
 Finally, run `make` to compile all of the files.
 
+# Developing
+
+* Run `make server` to serve the HTML on `http://localhost:8080`.
+
+* Run `make watch` to compile the files whenever you change something. This requires the program `watch` to be installed, which I installed with `brew install watch`.
+
 ## License
 
 ```

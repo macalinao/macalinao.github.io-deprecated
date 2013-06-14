@@ -3,4 +3,10 @@ build:
 	./node_modules/jade/bin/jade -P index.jade
 	./node_modules/stylus/bin/stylus index.styl
 
-.PHONY: build
+server:
+	./node_modules/http-server/bin/http-server
+
+watch:
+	watch make
+
+.PHONY: build server watch
