@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+}
+body {
+  font-family: 'Titillium Web', Arial, sans-serif;
+}
+.container {
+  max-width: 960px;
+  padding: 30px;
+}
+#intro {
+  position: absolute;
+  top: 30%;
+  margin: 30px auto;
+  font-size: 30px;
+}
+#intro h1 {
+  font-family: Cutive, serif;
+  font-size: 72px;
+}
