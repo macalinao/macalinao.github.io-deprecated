@@ -30,20 +30,25 @@ body {
   position: absolute;
   top: 20%;
   width: 100%;
-  margin: 30px auto;
   font-size: 30px;
   color: #efffcd;
-  text-transform: uppercase;
 }
+
 #intro h1 {
   font-family: 'Noticia Text', serif;
   font-size: 100px;
   margin: auto 10px;
+  border-bottom: 1px #efffcd;
 }
-#intro .subtitle {
-  font-size: 30px;
+
+.social {
+  margin-top: 1em;
+  font-size: 50px;
+  text-transform: uppercase;
 }
-#intro .social {
-  margin-top: 2em;
-  font-size: 25px;
+
+.social ul li {
+  display: inline;
+  text-decoration: none;
+  padding: 0px 20px;
 }
