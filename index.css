@@ -20,14 +20,18 @@ body {
   min-height: 100%;
   height: 100%;
 }
+
 .container {
   max-width: 960px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+  height: 100%;
 }
+
 #intro {
-  position: absolute;
+  position: relative;
   top: 20%;
   width: 100%;
   font-size: 30px;
