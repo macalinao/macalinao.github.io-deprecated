@@ -14,9 +14,9 @@ body {
 h1 {
   font-size: 100px;
   color: #268bd2;
+  margin-bottom: 10px;
 }
 .container {
-  padding: 0px 50px;
   max-width: 960px;
   display: block;
   margin-left: auto;
@@ -32,4 +32,35 @@ h1 {
   display: inline;
   text-decoration: none;
   padding: 0px 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  h1 {
+    font-size: 70px;
+  }
+  .container {
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  h1 {
+    font-size: 50px;
+  }
+  body {
+    font-size: 25px;
+  }
+  .container {
+    max-width: 480px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  h1 {
+    font-size: 40px;
+  }
+  body {
+    font-size: 20px;
+  }
+  .container {
+    max-width: 100%;
+    ;
+  }
 }
