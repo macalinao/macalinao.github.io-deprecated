@@ -2,6 +2,40 @@ var canvas = document.getElementById('draw');
 var header = document.getElementById('header');
 var ctx = canvas.getContext('2d');
 
+var colors = [{
+  r: 181,
+  g: 137,
+  b: 0
+}, {
+  r: 203,
+  g: 75,
+  b: 22
+}, {
+  r: 220,
+  g: 50,
+  b: 47
+}, {
+  r: 211,
+  g: 54,
+  b: 130
+}, {
+  r: 108,
+  g: 113,
+  b: 196
+}, {
+  r: 38,
+  g: 139,
+  b: 210
+}, {
+  r: 42,
+  g: 161,
+  b: 152
+}, {
+  r: 133,
+  g: 153,
+  b: 0
+}];
+
 window.requestAnimFrame = function() {
   return (
     window.requestAnimationFrame ||
@@ -26,6 +60,8 @@ function render() {
   if (Date.now() - lastCreate >= 20) {
     var sze = randr(20, 50);
 
+    var color = colors[Math.floor(Math.random() * colors.length)];
+
     squares.push({
       width: sze,
       height: sze,
@@ -33,9 +69,9 @@ function render() {
       x: randr(-sze + 10, canvas.width - 10),
       y: randr(10, canvas.height - 10),
       age: 1,
-      r: Math.floor(randr(0, 255)),
-      g: Math.floor(randr(0, 255)),
-      b: Math.floor(randr(0, 255))
+      r: color.r,
+      g: color.g,
+      b: color.b
     });
 
     lastCreate = Date.now();
@@ -44,7 +80,7 @@ function render() {
   for (var i = 0; i < squares.length; i++) {
     var sq = squares[i];
 
-    ctx.fillStyle = ["rgba(", sq.r, ", ", sq.g, ", ", sq.b, ",", (sq.age / 600), ")"].join("");
+    ctx.fillStyle = ["rgba(", sq.r, ", ", sq.g, ", ", sq.b, ",", (sq.age / 400), ")"].join("");
     ctx.fillRect(sq.x, sq.y, sq.width, sq.height);
 
     sq.y -= sq.vel / 1000 * timeDelta;
