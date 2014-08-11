@@ -1,7 +1,3 @@
-body {
-  padding: 0px;
-  margin: 0px;
-}
 a {
   color: #2aa198;
   text-decoration: none;
@@ -12,6 +8,8 @@ a:hover {
 }
 body {
   font-family: 'Open Sans', Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
   background-color: #ffffff;
   color: #657b83;
 }
