@@ -112,6 +112,9 @@ h2 {
   .section {
     padding: 0px 10px;
   }
+  .header {
+    padding-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 767px) {
   h1 {
@@ -128,5 +131,8 @@ h2 {
   }
   .col {
     width: 100%;
+  }
+  .header {
+    padding-bottom: 0px;
   }
 }
