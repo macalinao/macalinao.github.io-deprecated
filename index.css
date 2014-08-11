@@ -58,6 +58,19 @@ h2 {
 .full {
   width: 100%;
 }
+/* Animations */
+.delay-half {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.delay-one {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+/* Responsive stuff */
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   h1 {
     font-size: 70px;
