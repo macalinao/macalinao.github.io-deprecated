@@ -1,7 +1,3 @@
-body {
-  padding: 0px;
-  margin: 0px;
-}
 a {
   color: #2aa198;
   text-decoration: none;
@@ -11,14 +7,19 @@ a:hover {
   color: #d33682;
 }
 body {
+  padding: 0px;
+  margin: 0px;
   font-family: 'Open Sans', Arial, sans-serif;
-  background-color: #fdf6e3;
+  background-color: #ffffff;
   color: #657b83;
 }
 /* header */
 
 #header {
   padding-bottom: 40px;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
 h1 {
   font-size: 100px;
