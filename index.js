@@ -41,15 +41,20 @@ function render() {
     lastCreate = Date.now();
   }
 
-  squares = _.filter(squares, function(sq) {
+  for (var i = 0; i < squares.length; i++) {
+    var sq = squares[i];
+
     ctx.fillStyle = ["rgba(", sq.r, ", ", sq.g, ", ", sq.b, ",", (sq.age / 600), ")"].join("");
     ctx.fillRect(sq.x, sq.y, sq.width, sq.height);
 
     sq.y -= sq.vel / 1000 * timeDelta;
     sq.age++;
 
-    return sq.y + sq.height >= 0;
-  });
+    if (sq.y + sq.height < 0) {
+      squares.splice(i, 1);
+      i--;
+    }
+  }
 
   lastRender = new Date().getTime();
 }
@@ -60,7 +65,7 @@ function randr(min, max) {
 
 function resize() {
   var he = header.clientHeight;
-  var wi = header.clientWidth;
+  var wi = window.innerWidth;
 
   canvas.height = he;
   canvas.width = wi;

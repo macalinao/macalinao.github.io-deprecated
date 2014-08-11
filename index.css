@@ -18,7 +18,11 @@ body {
 /* header */
 
 #header {
-  padding-bottom: 40px;
+  background-color: #002b36;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding-bottom: 20px;
 }
 h1 {
   font-size: 100px;
@@ -29,6 +33,14 @@ h1 {
 .slogan {
   font-size: 30px;
   color: #eee8d5;
+  margin: 0px;
+}
+#draw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: block;
 }
 /* highlights */
 
@@ -96,16 +108,6 @@ h2 {
 .full {
   width: 100%;
 }
-/* Canvas */
-
-#draw {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  display: block;
-  background-color: #002b36;
-}
 /* Animations */
 
 .delay-half {
@@ -161,6 +163,6 @@ h2 {
     width: 100%;
   }
   #header {
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
 }
