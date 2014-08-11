@@ -17,8 +17,7 @@ body {
 }
 /* header */
 
-.header {
-  background-color: #002b36;
+#header {
   padding-bottom: 40px;
 }
 h1 {
@@ -88,6 +87,16 @@ h2 {
 .full {
   width: 100%;
 }
+/* Canvas */
+#draw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: block;
+  background-color: #002b36;
+}
+
 /* Animations */
 
 .delay-half {
@@ -112,7 +121,7 @@ h2 {
   .section {
     padding: 0px 10px;
   }
-  .header {
+  #header {
     padding-bottom: 10px;
   }
 }
@@ -132,7 +141,7 @@ h2 {
   .col {
     width: 100%;
   }
-  .header {
+  #header {
     padding-bottom: 0px;
   }
 }
