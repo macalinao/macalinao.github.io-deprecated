@@ -8,7 +8,7 @@ a:hover {
 }
 body {
   font-family: 'Open Sans', Arial, sans-serif;
-  background-color: #042029;
+  background-color: #fdf6e3;
   color: #657b83;
 }
 /* highlights */
@@ -28,16 +28,17 @@ body {
 /* style */
 h1 {
   font-size: 100px;
-  color: #268bd2;
+  font-weight: bold;
+  color: #586e75;
   margin-bottom: 10px;
 }
 .slogan {
   font-size: 30px;
-  color: #eee8d5;
+  color: #b58900;
 }
 h2 {
   font-size: 30px;
-  color: #93a1a1;
+  color: #586e75;
 }
 .container {
   max-width: 960px;
