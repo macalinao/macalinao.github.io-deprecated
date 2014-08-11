@@ -28,7 +28,10 @@ h1 {
   margin-top: 1em;
   font-size: 50px;
 }
-.social ul li {
+.social ul {
+  padding: 0px;
+}
+.social li {
   display: inline;
   text-decoration: none;
   padding: 0px 20px;
