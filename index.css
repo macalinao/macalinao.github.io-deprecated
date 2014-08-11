@@ -98,18 +98,7 @@ h2 {
     max-width: 768px;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  h1 {
-    font-size: 50px;
-  }
-  .slogan {
-    font-size: 25px;
-  }
-  .container {
-    max-width: 480px;
-  }
-}
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 767px) {
   h1 {
     font-size: 40px;
   }
@@ -117,7 +106,7 @@ h2 {
     font-size: 20px;
   }
   .container {
-    max-width: 100%;
+    max-width: 480px;
   }
   .col {
     width: 100%;
