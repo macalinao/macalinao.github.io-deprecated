@@ -60,7 +60,7 @@ function randr(min, max) {
 
 function resize() {
   var he = header.clientHeight;
-  var wi = window.innerWidth;
+  var wi = header.clientWidth;
 
   canvas.height = he;
   canvas.width = wi;
