@@ -1,20 +1,6 @@
 # ianmacalinao.com
 
-The source code to my website.
-
-## Building
-
-My website uses [Node.js](http://nodejs.org) programs to compile anything, so first install that.
-
-Next, run `npm install` to install those programs.
-
-Finally, run `make` to compile all of the files.
-
-# Developing
-
-* Run `make server` to serve the HTML on `http://localhost:8080`.
-
-* Run `make watch` to compile the files whenever you change something. This requires the program `watch` to be installed, which I installed with `brew install watch`.
+The source code to my website, written in HTML, CSS, and Javascript.
 
 ## License
 
