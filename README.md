@@ -1,6 +1,6 @@
 # ianmacalinao.com
 
-The source code to my humble website.
+The source code to my website.
 
 ## Building
 
