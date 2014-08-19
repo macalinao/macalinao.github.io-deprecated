@@ -1,0 +1,21 @@
+{
+  "basics": {
+    "name": "Ian Macalinao",
+    "label": "Programmer",
+    "picture": "",
+    "email": "me@ian.pw",
+    "phone": "(530) 426-2146",
+    "website": "http://ianmacalinao.com/",
+    "summary": "Experienced developer blah blah",
+    "profiles": [{
+      "network": "GitHub",
+      "username": "simplyianm",
+      "url": "https://github.com/simplyianm/"
+    }, {
+      "network": "Twitter",
+      "username": "simplyianm",
+      "url": "http://twitter.com/simplyianm/"
+    }],
+    "groups": ["hshackers", "hackathon-hackers"]
+  }
+}
