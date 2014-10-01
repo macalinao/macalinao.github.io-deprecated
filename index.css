@@ -23,7 +23,7 @@ body {
   padding-bottom: 20px;
 }
 h1 {
-  font-size: 100px;
+  font-size: 90px;
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 10px;
@@ -97,6 +97,9 @@ h2 {
 .col:first-child {
   margin-left: 0;
 }
+.half {
+  width: 47%;
+}
 .wide {
   width: 35%;
 }
@@ -117,6 +120,19 @@ h2 {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
+}
+.inlist li {
+  display: inline;
+  font-size: 20px;
+}
+.inlist li + li:before {
+  /* To anyone reading the CSS, yes I know this isn't a linked list. */
+  content: '\2022';
+  font-size: 20px;
+  padding: 0 5px;
+}
+#footer {
+  text-align: center;
 }
 /* Responsive stuff */
 
@@ -162,5 +178,17 @@ h2 {
   }
   #header {
     padding-bottom: 10px;
+  }
+
+  .inlist li {
+    font-size: inherit;
+    display: list-item;
+  }
+  .inlist li + li:before {
+    content: '';
+    padding: 0px;
+  }
+  #footer {
+    text-align: left;
   }
 }
