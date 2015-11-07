@@ -59,8 +59,14 @@ blockquote p {
 }
 
 @media only screen and (max-width: 767px) {
+
   .container {
     width: calc(100% - 40px);
     padding: 0px 20px;
   }
+
+  ul#social li {
+    margin-right: 2rem;
+  }
+
 }
