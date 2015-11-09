@@ -1,0 +1,61 @@
+/* styling */
+
+body {
+  padding: 0 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+a {
+  color: #0000aa;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.social {
+  list-style: none;
+  overflow: hidden;
+  padding: 20px 0;
+  margin-left: -10px;
+}
+
+.social li {
+  float: left;
+  margin-right: 10px;
+}
+
+.social .fa {
+  font-size: 32px;
+  color: #404040;
+  padding: 10px;
+}
+
+.social .fa:hover {
+  color: #000000;
+}
+
+.posts li {
+  line-height: 22px;
+    margin-bottom: 4px;
+}
+
+.quote {
+  font-style: italic;
+  line-height: 22px;
+  border-top: 2px solid #f2f2f2;
+  margin: 40px 0 0 0;
+  padding: 40px 20px 0 0;
+  margin-bottom: 60px;
+}
