@@ -18,10 +18,12 @@ p {
 
 a {
   color: #0000aa;
+  text-decoration: none;
 }
 
 a:hover {
   color: #000000;
+  text-decoration: underline;
 }
 
 .social {
