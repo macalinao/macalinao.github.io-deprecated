@@ -61,3 +61,15 @@ a:hover {
   padding: 40px 20px 0 0;
   margin-bottom: 60px;
 }
+
+img#me {
+  width: 25%;
+  margin-right: 3%;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  img#me {
+    display: none;
+  }
+}
