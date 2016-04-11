@@ -1,3 +1,13 @@
+var quotes = [
+  "Success isn't about being the best. It's about always getting better.",
+  "Nothing ventured, nothing gained.",
+  "The world is your oyster."
+];
+
+function randomQuote() {
+  return quotes[Math.floor(Math.random() * quotes.length)];
+}
+
 $(function() {
   $.get('https://simplyian.com/content.json').then(function(data) {
     $('#postsContainer').html('<ul id="posts"></ul');
@@ -7,4 +17,6 @@ $(function() {
   }, function() {
     $('#postsContainer').html('<p>Unable to load feed.</p>');
   });
+
+  $('#footQuote').html('"' + randomQuote() + '"');
 });
