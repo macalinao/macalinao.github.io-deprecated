@@ -27,10 +27,39 @@ var header = document.getElementById('header');
 var ctx = canvas.getContext('2d');
 
 var colors = [{
-  r: 46,
-  g: 163,
-  b: 179
+  r: 181,
+  g: 137,
+  b: 0
+}, {
+  r: 203,
+  g: 75,
+  b: 22
+}, {
+  r: 220,
+  g: 50,
+  b: 47
+}, {
+  r: 211,
+  g: 54,
+  b: 130
+}, {
+  r: 108,
+  g: 113,
+  b: 196
+}, {
+  r: 38,
+  g: 139,
+  b: 210
+}, {
+  r: 42,
+  g: 161,
+  b: 152
+}, {
+  r: 133,
+  g: 153,
+  b: 0
 }];
+
 
 window.requestAnimFrame = function() {
   return (
@@ -53,15 +82,15 @@ function render() {
   var timeDelta = new Date().getTime() - lastRender;
   ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
 
-  if (Date.now() - lastCreate >= 60) {
-    var sze = randr(20, 50);
+  if (Date.now() - lastCreate >= 20) {
+    var sze = randr(10, 50);
 
     var color = colors[Math.floor(Math.random() * colors.length)];
 
     squares.push({
       width: sze,
       height: sze,
-      vel: randr(30, 60), //pixs per second
+      vel: randr(75, 150), //pixs per second
       x: randr(-sze + 10, canvas.width - 10),
       y: randr(10, canvas.height - 10),
       age: 1,
