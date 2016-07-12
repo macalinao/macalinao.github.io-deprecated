@@ -95,6 +95,10 @@ h2 {
   padding: 10px;
 }
 
+#posts li {
+  padding-left: 20px;
+}
+
 @media only screen and (max-width: 767px) {
   #cols {
     flex-direction: column;
