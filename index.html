@@ -3,6 +3,8 @@
 
 <head>
   <meta name="google-site-verification" content="aEZXQ9Sa6ffNUZlsa_5niffn9eSFTty4CqdiVz-OqyA">
+  <link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -13,24 +15,47 @@
   <title>Ian Macalinao - Software Engineer</title>
 </head>
 
+<body>
+
+  <div id="bar"></div>
+
   <div class="container">
-    <h1>Hey there, I'm Ian.</h1>
-    <p>I'm a software engineer currently working at <a href="http://www.google.com/" target="_blank">Google</a> on Technical Infrastructure.</p>
-    <p>Previously, I've worked at <a href="http://www.ubereats.com/" target="_blank">UberEATS</a> on backend, <a href="http://researchnow.com/">ResearchNow</a> as a data engineer and <a href="http://ifttt.com" target="_blank">IFTTT</a> as a full stack engineer.</p>
-    <p>My favorite pastimes include writing unit tests, debugging in production, and <em>undefined is not a function</em>.</p>
-    <p>My latest resume is available <a href="https://ian.pw/resume" target="_blank">here</a>. You can contact me at <a href="mailto:me@ian.pw">me@ian.pw</a>.</p>
-    <ul class="social">
-      <li><a href="https://github.com/simplyianm" target="_blank"><i class="fa fa-github"></i></a></li>
-      <li><a href="https://twitter.com/simplyianm" target="_blank"><i class="fa fa-twitter"></i></a></li>
-      <li><a href="https://facebook.com/simplyianm" target="_blank"><i class="fa fa-facebook"></i></a></li>
-      <li><a href="https://linkedin.com/in/simplyianm" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-    </ul>
-    <h2>Latest from <a href="https://simplyian.com" target="_blank">my blog</a></h2>
-    <div id="postsContainer" class="posts">
-      <p><i class="fa fa-spinner fa-spin"></i></p>
+    <h1>Ian Macalinao</h1>
+
+    <div id="socialWrapper">
+      <ul id="social">
+        <li><a href="https://github.com/simplyianm" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://twitter.com/simplyianm" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://facebook.com/simplyianm" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://linkedin.com/in/simplyianm" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
     </div>
+
+    <div id="cols">
+      <div id="about">
+        <h2>About</h2>
+        <p>
+          I'm a software engineer currently interning at Google. Previously, I've interned at UberEATS, ResearchNow, and IFTTT.
+        </p>
+        <p>
+          I also attend the University of Texas at Austin, where I'm majoring in mathematics.
+        </p>
+        <p>
+          You can view my latest resume <a href="https://ian.pw/resume" target="_blank">here</a>.
+        </p>
+      </div>
+
+      <div id="writing">
+        <h2><a href="https://simplyian.com" target="_blank">Writing</a></h2>
+        <div id="postsContainer" class="posts">
+          <p><i class="fa fa-spinner fa-spin"></i></p>
+        </div>
+      </div>
+    </div>
+
     <blockquote id="footQuote" class="quote">"Success isn't about being the best. It's about always getting better."</blockquote>
   </div>
+
   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="script.js"></script>
   <script>
