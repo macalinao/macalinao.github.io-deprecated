@@ -79,6 +79,7 @@ var lastRender = Date.now();
 var lastCreate = Date.now();
 
 function render() {
+  return;
   var timeDelta = new Date().getTime() - lastRender;
   ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
 
