@@ -113,6 +113,7 @@ ul#posts {
 
 
 #writing h2 a {
+<<<<<<< 2f6f2160819738b2de703cc459ee9c8a1c653582
   color: #000;
 }
 
@@ -126,4 +127,5 @@ ul#posts {
 
 #header {
   width: 100%;
+  color: #2b2b2b;
 }
