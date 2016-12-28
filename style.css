@@ -5,103 +5,88 @@ html, body {
 }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #2b2b2b;
-}
-
-h1, h2 {
-  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20pt;
+  color: #455565;
 }
 
 h1 {
+  font-family: 'Gentium Book Basic', serif;
+}
+
+#quote {
+  font-family: 'Gentium Basic', serif;
+}
+
+h1, h2 {
+  color: #000;
+}
+
+h1 {
+  font-weight: bold;
   text-align: center;
-  font-size: 72px;
-  margin-top: 40px;
-  margin-bottom: 10px;
+  font-size: 72pt;
+  margin-top: 82px;
+  margin-bottom: 60px;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 20pt;
+  font-weight: bold;
 }
 
 #bar {
-  margin-top: 15px;
-  background-color: #2EA3B3;
-  height: 44px;
+  background-color: #3873A3;
+  height: 10px;
   width: 100%;
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 10px;
+#body {
+  width: 768px; 
+  margin: 0px auto;
+  text-align: justify;
+}
+
+#info {
+  margin-bottom: 60px;
 }
 
 a {
-  color: #0000aa;
-  text-decoration: none;
-}
-
-#writing a {
-  color: #2b2b2b;
+  color: #3271A7;
 }
 
 a:hover {
-  color: #393f47;
+  color: #888;
+}
+
+#connect ul {
+  padding: 0px;
+}
+
+#connect li {
+  display: inline;
+  padding-right: 80pt;
+}
+
+#connect a {
+  text-decoration: none;
+}
+
+#connect a:hover {
   text-decoration: underline;
 }
 
-#socialWrapper {
-  text-align: center;
+#quoteBar {
+  background-color: #979797;
+  height: 1px;
+  width: 120px;
+  margin-top: 47px;
 }
 
-#social {
-  display: inline-block;
-  list-style: none;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-#social li {
-  float: left;
-  margin-right: 10px;
-}
-
-#social .fa {
-  font-size: 32px;
-  color: #404040;
-  padding: 10px;
-}
-
-#social .fa:hover {
-  color: #393f47;
-}
-
-h2 {
-  text-transform: lowercase;
-}
-
-.quote {
+#quote {
   font-style: italic;
-  border-top: 2px solid #f2f2f2;
-  margin: 20px 0 0 0;
-  padding: 40px 20px 0 0;
-  text-align: center;
-}
-
-#cols {
-  display: flex;
-}
-
-#cols > div {
-  width: 50%;
-  padding: 10px;
-}
-
-ul#posts {
-  padding-left: 20px;
+  margin: 14px 0 0 0;
+  font-size: 18pt;
 }
 
 @media only screen and (max-width: 767px) {
@@ -114,18 +99,4 @@ ul#posts {
   h1 {
     font-size: 50px;
   }
-}
-
-
-#draw {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  display: block;
-}
-
-#header {
-  width: 100%;
-  color: #2b2b2b;
 }
